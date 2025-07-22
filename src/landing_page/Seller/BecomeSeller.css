@@ -1,0 +1,47 @@
+.seller-container {
+  max-width: 600px;
+  margin: 40px auto;
+  text-align: center;
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.seller-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.seller-form input,
+.seller-form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #f9f9f9;
+}
+
+.seller-form textarea {
+  resize: vertical;
+}
+
+.seller-form button {
+  background-color: #2e7d32;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.seller-form button:hover {
+  background-color: #1b5e20;
+}
+
+.note {
+  margin-top: 20px;
+  color: #555;
+}

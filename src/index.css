@@ -66,3 +66,20 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+/* -------------------------------------------------------------------------------------------------------- */
+/* Example: */
+.navbar-custom {
+  background-color: #ffffff;
+  border-bottom: 1px solid #dee2e6;
+  width: 100vw;
+  color: #424242;
+}
+
+.search-form {
+  max-width: 500px;
+  width: 100%;
+}
+
+.nav-links {
+  gap: 1rem;
+}
