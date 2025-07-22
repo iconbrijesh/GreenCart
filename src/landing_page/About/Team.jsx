@@ -9,32 +9,32 @@ const teamMembers = [
     },
     {
         name: 'Sandhya Kumari',
-        email: '#',
-        linkedin: 'https://linkedin.com/in/manveen-profile',
+        email:'sandhyakumari79778@gmail.com',
+         linkedin: 'https://www.linkedin.com/in/sandhya-kumari-938153370?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
         role: 'Content & Media Curator',
     },
     {
         name: 'Priyanshu Gope',
         email: 'gopepriyanshu3@gmail.com',
-        linkedin: 'https://linkedin.com/in/aman-profile',
+        linkedin: 'https://www.linkedin.com/in/priyanshu-gope-14a113293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
         role: 'Brand Identity Designer',
     },
     {
         name: 'Harshita Kumari',
-        email: '#',
-        linkedin: 'https://linkedin.com/in/priya-profile',
+        email: 'kharshita556@gmail.com',
+        linkedin: 'https://www.linkedin.com/in/harshita-kumari-a62723232?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
         role: 'Documentation Specialist',
     },
     {
         name: 'Anurag Pandey',
-        email: '#',
+        email: 'anuragpa3435@gmail.com',
         linkedin: 'https://linkedin.com/in/ravi-profile',
         role: 'Documentation Specialist',
     },
     {
-        name: 'xyz',
-        email: '#',
-        linkedin: 'https://linkedin.com/in/anjali-profile',
+        name: 'Saurabh Sinha',
+        email: 'ss6114331@gmail.com',
+        linkedin: 'https://www.linkedin.com/in/saurabh-sinha-88a894374?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
         role: 'Documentation Specialist',
     },
 ];
@@ -50,7 +50,7 @@ const Team = () => {
                 {teamMembers.map((member, index) => (
                     <div key={index} className="team-card">
                         <h3 className="member-name">{member.name}</h3>
-                        <p className="member-role">{member.role}</p>
+                        {/* <p className="member-role">{member.role}</p> */}
                         <p><strong>Email:</strong><br /><a href={`mailto:${member.email}`}>{member.email}</a></p>
                         <p><strong>LinkedIn:</strong><br /><a href={member.linkedin} target="_blank" rel="noopener noreferrer">View Profile</a></p>
                         <div className="bottom-strip">{member.role}</div>
