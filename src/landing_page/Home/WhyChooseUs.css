@@ -1,0 +1,49 @@
+.why-choose-us {
+  background-color: #f4fdf6;
+  padding: 60px 20px;
+  color: #2e7d32;
+  font-family: "Arial", sans-serif;
+}
+
+.why-choose-us h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.intro-text {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 40px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #444;
+}
+
+.reasons-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.reason-card {
+  background-color: #ffffff;
+  border-left: 5px solid #2e7d32;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  max-width: 300px;
+  flex: 1 1 250px;
+  border-radius: 5px;
+}
+
+.reason-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.reason-card p {
+  font-size: 14px;
+  color: #555;
+}

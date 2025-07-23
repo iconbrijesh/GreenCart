@@ -1,5 +1,5 @@
 import Hero from "./Hero";
-import WhyUs from "./WhyUs";
+import WhyChooseUs from "./WhyChooseUs";
 import FeaturedProduct from "./FeaturedProduct";
 import EcoTip from "./EcoTip";
 
@@ -10,7 +10,7 @@ function HomePage() {
     return (
         <>
             <Hero />
-            <WhyUs />
+            <WhyChooseUs />
             <FeaturedProduct />
             <EcoTip />
             
