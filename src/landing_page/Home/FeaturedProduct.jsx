@@ -4,7 +4,7 @@ const products = [
   {
     id: 1,
     name: 'IMECO Bamboo Mug',
-    price: '₹1,299',
+    price: '₹199',
     image: '/images/homeImg/EcoMug.webp',
     score: '🌿 4.8/5'
   },

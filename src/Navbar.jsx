@@ -1,6 +1,6 @@
-import "./index.css";  // 👈 Import your CSS file
+import "./index.css";  
 import { Link } from "react-router-dom";
-import { FaShoppingCart } from "react-icons/fa";  // 👈 Import cart icon
+import { FaShoppingCart } from "react-icons/fa";  
 
 export default function Navbar() {
     return (
