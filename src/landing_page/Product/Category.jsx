@@ -4,7 +4,8 @@ import './Category.css'; // ← Import CSS
 const categories = [
   {
     name: 'Personal Care & Hygiene',
-    image: 'https://cdn-icons-png.flaticon.com/512/892/892458.png',
+    image: 'https://cdn-icons-png.flaticon.com/512/3359/3359518.png'
+
   },
   {
     name: 'Home Cleaning Supplies',

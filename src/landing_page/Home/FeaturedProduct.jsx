@@ -79,7 +79,7 @@ const FeaturedProduct = () => {
 
   return (
     <section className="featured-section">
-      <h2>Most bought</h2>
+      <h2>Most Bought</h2>
 
       <div className="product-grid">
         {row1.map((product) => (

@@ -5,7 +5,7 @@ const WhyGreenCart = () => {
   return (
     <section className="why-greencart">
       <div className="why-greencart-content">
-        <h2>Why GreenCart?</h2>
+        <h2>Why GreenCart ?</h2>
         <p>
           In a world drowning in plastic, pollution, and overconsumption, it's time we make conscious choices. 
           <strong> GreenCart</strong> isn’t just another e-commerce platform — it's a movement towards a cleaner, healthier planet.

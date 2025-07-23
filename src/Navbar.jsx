@@ -1,5 +1,6 @@
 import "./index.css";  // 👈 Import your CSS file
 import { Link } from "react-router-dom";
+import { FaShoppingCart } from "react-icons/fa";  // 👈 Import cart icon
 
 export default function Navbar() {
     return (
@@ -25,15 +26,22 @@ export default function Navbar() {
                     </div>
 
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0 d-flex flex-row nav-links">
-                       
+
                         <li className="nav-item">
                             <Link className="nav-link" to="/product">Products</Link>
                         </li>
 
-                         <li className="nav-item">
+                        {/* Cart Icon */}
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/cart">
+                                <FaShoppingCart size={18} style={{ marginBottom: '2px' }} /> Cart
+                            </Link>
+                        </li>
+
+                        <li className="nav-item">
                             <Link className="nav-link active" to="/signup">Signup</Link>
                         </li>
-                         <li className="nav-item">
+                        <li className="nav-item">
                             <Link className="nav-link active" to="/seller">Become Seller</Link>
                         </li>
                         <li className="nav-item">
