@@ -16,10 +16,10 @@ const Hero = () => {
   };
 
   const images = [
-    "../public/images/woodenToys.jpg",
-    "../public/images/cottonSaree.jpg",
-    "../public/images/woodenToys.avif",
-    "../public/images/naturalMedicine.avif"
+    "/images/woodenToys.jpg",
+    "/images/cottonSaree.jpg",
+    "/images/woodenToys.avif",
+    "/images/naturalMedicine.avif"
     
   ];
 

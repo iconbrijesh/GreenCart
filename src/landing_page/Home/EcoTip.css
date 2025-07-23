@@ -1,0 +1,27 @@
+.eco-tip-card {
+  background-color: #e6f4ea;
+  border-left: 6px solid #2e7d32;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 128, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.eco-tip-card:hover {
+  transform: translateY(-3px);
+}
+
+.eco-tip-title {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #2e7d32;
+  font-weight: 600;
+}
+
+.eco-tip-text {
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.6;
+}
