@@ -1,0 +1,38 @@
+.category-container {
+  display: flex;
+  justify-content: space-evenly; /* Equal space between items */
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  padding: 20px 40px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 128, 0, 0.05);
+}
+
+.category-card {
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  margin: 10px 20px; /* Add spacing if needed for wrap layout */
+}
+
+.category-card img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.category-card p {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #444;
+  transition: color 0.3s ease;
+}
+
+/* Hover Effects */
+.category-card:hover img {
+  transform: scale(1.1);
+}
+
+.category-card:hover p {
+  color: green;
+}
